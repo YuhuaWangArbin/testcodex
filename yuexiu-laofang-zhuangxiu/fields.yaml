@@ -1,0 +1,113 @@
+topic: 越秀区老房子装修 怎么找？考虑什么
+
+# detail_level 分层：极简 → 简要 → 详细
+# 用户重点维度：报价与预算、口碑与质量保障
+
+field_categories:
+
+  - category: 基本信息
+    fields:
+      - name: channel_type
+        description: 渠道/对象类型（装修公司/设计师/施工队/平台/监理/政府项目等）
+        detail_level: 极简
+      - name: how_to_find
+        description: 获取方式（线下门店、平台搜索、熟人推荐、政府公告、官网/小程序等）
+        detail_level: 简要
+      - name: coverage_area
+        description: 覆盖区域，是否有越秀本地案例/门店
+        detail_level: 简要
+
+  - category: 老房适配性（含越秀/岭南本地化）
+    fields:
+      - name: oldhouse_experience
+        description: 是否熟悉老楼结构（砖混/砖木/承重墙）、管线水电改造经验
+        detail_level: 详细
+      - name: humid_climate_craft
+        description: >-
+          广州潮湿气候适配工艺：卫生间防水≥2米双层+二次排水+48h闭水试验、
+          墙地防潮膜、吊顶用钢龙骨替代木龙骨、一楼慎用实木地板
+        detail_level: 详细
+      - name: heritage_restriction
+        description: >-
+          历史建筑/文物保护限制：是否在越秀登记保护文物/历史建筑名录，
+          受《广州市历史文化名城保护条例》约束（保护格局风貌、修缮报批、
+          不得擅改外立面）
+        detail_level: 详细
+      - name: partial_renovation_support
+        description: 是否支持局改/边住边装（厨卫局部翻新、不搬家渐进式改造）
+        detail_level: 简要
+
+  - category: 资质与合规
+    fields:
+      - name: license_qualification
+        description: 营业执照、装修施工资质、是否自有产业工人（不外包）
+        detail_level: 简要
+      - name: filing_assistance
+        description: 报建/物业报批协助、老旧小区装修审批支持
+        detail_level: 简要
+      - name: gov_renewal_status
+        description: >-
+          是否纳入政府旧改/原拆原建/微改造范围；关系到可否等政府改造、
+          能否申请财政补助、自费装修时机
+        detail_level: 详细
+      - name: elevator_addition
+        description: 是否同期加装电梯、加梯报建状态、公积金提取/财政补助可用性
+        detail_level: 简要
+
+  - category: 报价与预算（重点）
+    fields:
+      - name: pricing_mode
+        description: 清包/半包/全包/整装模式定义与适用场景
+        detail_level: 详细
+      - name: increment_rate_contract
+        description: >-
+          【核心痛点】广州老房翻新增项率高达63%。是否提供闭口/固定价合同、
+          误差容忍度（如≤5%超出谁承担）、增项触发条件
+        detail_level: 详细
+      - name: hidden_cost_list
+        description: >-
+          老房隐性成本清单：拆除人工35-55元/㎡、垃圾清运约1300元/车、
+          无电梯纯人工搬运20-35元/㎡（80㎡老房拆除+清运约5000-7000元）
+        detail_level: 详细
+      - name: unit_price_range
+        description: 单价区间（清包/半包/全包/整装各档每㎡参考价）
+        detail_level: 详细
+      - name: payment_protection
+        description: 付款节点与工程进度绑定方式、是否闭环付款保障，降低预付款风险
+        detail_level: 简要
+
+  - category: 口碑与质量保障（重点）
+    fields:
+      - name: reputation_cases
+        description: 业主真实评价、可实地查看的在建/完工案例（警惕商业榜单刷量）
+        detail_level: 详细
+      - name: third_party_supervision
+        description: >-
+          是否引入独立第三方监理/验房；验收节点（开工交底/水电隐蔽/
+          瓦工/木工/竣工）、监理资质（市建委/装饰协会）
+        detail_level: 详细
+      - name: warranty_terms
+        description: >-
+          整体质保年限（部分品牌承诺终身质保）、水电隐蔽工程保修（建议≥5年）、
+          防水保修
+        detail_level: 详细
+      - name: dispute_handling
+        description: 纠纷/返工处理机制、合同违约条款
+        detail_level: 简要
+
+  - category: 风险点
+    fields:
+      - name: oldhouse_risks
+        description: >-
+          老房特有风险：漏水、墙体开裂、电路负荷不足、承重墙误拆、
+          邻里关系、楼龄/产权限制
+        detail_level: 详细
+      - name: roster_marketing_risk
+        description: 商业榜单/"TOP5口碑排行"多含推广性质，名称仅供线索需独立核验
+        detail_level: 简要
+
+uncertain:
+  # 保留字段，deep阶段自动填充
+  - 具体公司的真实在建工地地址与可探访性
+  - 越秀单一区域权威独立测评（目前未找到，需实地验证）
+  - 各渠道针对越秀具体小区/楼龄的实际报价样本

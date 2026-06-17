@@ -23,31 +23,13 @@ items:
       （价格误差≤5%、超出公司承担）、承诺零被动增项+质保；
       直接命中"报价透明+质保"诉求
 
-  - id: design_studio
-    name: 设计工作室/独立设计师
-    note: 注重老房格局改造、采光通风优化；通常需另配施工与监理
-
   - id: construction_team
     name: 施工队/包工头（清包/半包）
     note: 熟人介绍、性价比路线；缺内部监理，隐蔽工程风险需额外把控
 
-  - id: juwei_partial_team
-    name: 局改/边住边装专项施工队（厨卫局部翻新）
-    note: >-
-      不搬家渐进式改造（先厨卫后客厅），适合预算有限、
-      老人自住不便搬迁的越秀业主
-
   - id: internet_platform
     name: 互联网平台
     note: 土巴兔、齐家网、好好住、大众点评、小红书等接单/比价/找口碑平台
-
-  - id: property_neighbor
-    name: 物业/居委会/老街坊推荐
-    note: 本地口碑资源；老旧小区熟人案例可实地查看
-
-  - id: building_material_market
-    name: 建材市场一站式材料展厅（含施工，如百安居等）
-    note: 2026强调"材料展厅杜绝中间环节加价"，作为控制增项的渠道
 
   # ---- 质量保障/合规相关第三方（考虑什么） ----
   - id: third_party_supervision

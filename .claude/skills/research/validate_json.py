@@ -22,13 +22,27 @@ CATEGORY_MAPPING = {
 _SKIP_KEYS = {"_source_file", "uncertain"}
 
 
+def _iter_category_fields(field_categories):
+    """支持两种 fields.yaml 结构:
+    1) 列表: [{category: 名称, fields: [...]}, ...]
+    2) 字典: {分类名称: [字段, ...], ...}
+    """
+    if isinstance(field_categories, dict):
+        for category_name, fields in field_categories.items():
+            for field in fields or []:
+                yield field, category_name
+    else:
+        for category in field_categories or []:
+            for field in category.get("fields", []):
+                yield field, category.get("category", "未知")
+
+
 def load_fields_yaml(fields_path):
     with fields_path.open(encoding="utf-8") as f:
         data = yaml.safe_load(f)
     items = [
-        (field["name"], category["category"], field.get("required", False))
-        for category in data.get("field_categories", [])
-        for field in category.get("fields", [])
+        (field["name"], category_name, field.get("required", False))
+        for field, category_name in _iter_category_fields(data.get("field_categories", []))
     ]
     all_fields = {name for name, _, _ in items}
     required_fields = {name for name, _, required in items if required}

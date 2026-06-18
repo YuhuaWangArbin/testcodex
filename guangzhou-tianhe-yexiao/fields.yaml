@@ -1,0 +1,86 @@
+topic: 广州天河夜宵（12点以后营业）
+
+field_categories:
+  基本信息:
+    - name: name
+      label: 店名
+      description: 店铺全称
+      detail_level: 极简
+    - name: address
+      label: 地址
+      description: 可导航的详细地址（楼层/门牌）
+      detail_level: 简要
+    - name: area
+      label: 所属片区
+      description: 天河区内片区（体育西/猎德/天河南等）
+      detail_level: 极简
+    - name: area_type
+      label: 片区类型
+      description: 核心商圈 vs 城中村，影响价格、氛围与安全感
+      detail_level: 极简
+
+  价格（重点）:
+    - name: avg_price
+      label: 人均价格
+      description: 人均消费金额/区间，核心决策维度，须给出具体数值
+      detail_level: 详细
+    - name: group_deal
+      label: 团购/优惠券
+      description: 是否支持大众点评/美团团购，影响实际人均
+      detail_level: 简要
+
+  营业时间:
+    - name: close_time
+      label: 打烊时间
+      description: 精确到点的营业截止时间（如"次日02:00"），须可验证满足"12点后"
+      detail_level: 详细
+    - name: all_night
+      label: 是否通宵
+      description: 是否24小时/通宵营业
+      detail_level: 极简
+    - name: late_crowd
+      label: 深夜上座
+      description: 深夜时段是否满座、是否需排队/等位时长
+      detail_level: 简要
+
+  菜品特色:
+    - name: signature
+      label: 招牌菜
+      description: 必点菜品
+      detail_level: 详细
+    - name: cuisine
+      label: 菜系
+      description: 烧烤/海鲜/砂锅粥/啫啫煲/火锅/牛杂/小吃/酒吧
+      detail_level: 极简
+    - name: live_seafood
+      label: 海鲜池/明档
+      description: 是否有海鲜池或明档现选，广式大排档核心卖点
+      detail_level: 简要
+
+  环境与场景:
+    - name: ambience
+      label: 环境氛围
+      description: 大排档/室内、是否空调、嘈杂程度
+      detail_level: 简要
+    - name: scene
+      label: 适合场景
+      description: 单人深夜/朋友聚餐/微醺社交等
+      detail_level: 简要
+
+  交通便利:
+    - name: transport
+      label: 地铁/打车/停车
+      description: 最近地铁站、深夜打车难度、停车便利度
+      detail_level: 简要
+
+  口碑评价:
+    - name: rating
+      label: 评分热度
+      description: 大众点评/OpenRice等平台评分与网络热度
+      detail_level: 简要
+
+uncertain:
+  - 是否需排队及等位时长（deep阶段核实）
+  - 支付方式
+  - 营业执照/在营状态（核实是否仍在营业）
+  - 天河具体门店精确打烊时间（啫八/八合里/楼上大排档需逐店核实）

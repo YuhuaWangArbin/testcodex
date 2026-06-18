@@ -21,12 +21,6 @@ items:
     cuisine: 潮汕牛肉火锅
     note: 马场路36号领展广场6楼607；人均80-100+；部分门店营业至次日02:00
 
-  # —— 酒吧/餐吧类 ——
-  - name: 珠江道酒吧街（猎德）
-    area: 猎德/珠江新城
-    cuisine: 酒吧/餐吧
-    note: 30多家酒吧外摆；每日19:00至次日02:00；高端夜宵+酒水代表
-
 execution:
   batch_size: 2
   items_per_agent: 1

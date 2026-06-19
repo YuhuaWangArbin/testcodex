@@ -14,9 +14,6 @@ field_groups:
       - name: suggested_duration
         description: 建议游玩时长（半日/整天/数小时）
         detail_level: 简要
-      - name: indoor_outdoor
-        description: 室内/室外属性，用于雨天或台风备选判断
-        detail_level: 简要
 
   - group: 交通
     fields:
@@ -53,15 +50,9 @@ field_groups:
       - name: reservation_difficulty
         description: 是否需提前预约、提前多久、放票时间点（如吉卜力每月10日9:00、teamLab/Shibuya Sky需指定场次）
         detail_level: 详细
-      - name: opening_hours
-        description: 营业/开放时间
-        detail_level: 简要
       - name: golden_week_crowd_tips
         description: 中国十一黄金周高峰期间拥挤程度与错峰建议（平日下午、开门即入、避整点场次等）
         detail_level: 详细
-      - name: tax_payment_tips
-        description: 是否可退税/是否仅收现金；提示10月初仍适用现行店内退税制（新制2026/11/1才生效）
-        detail_level: 简要
 
   - group: 行程适配
     fields:
@@ -72,5 +63,4 @@ field_groups:
 # 不确定字段（保留，deep阶段联网核实后填充）
 uncertain:
   - ticket_price          # 2026最新票价以官网为准
-  - opening_hours         # 节假日营业时间可能调整
   - reservation_difficulty # 放票时间/预约链接需deep阶段核实

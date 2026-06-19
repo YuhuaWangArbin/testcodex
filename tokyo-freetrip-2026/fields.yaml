@@ -1,9 +1,9 @@
 topic: 2026年9月29日-10月3日东京自由行行程规划
 
 # detail_level 分层：极简 → 简要 → 详细
-field_groups:
+field_categories:
 
-  - group: 基本信息
+  - category: 基本信息
     fields:
       - name: name
         description: 景点/区域名称（中文+日文/英文）
@@ -15,7 +15,7 @@ field_groups:
         description: 建议游玩时长（半日/整天/数小时）
         detail_level: 简要
 
-  - group: 交通
+  - category: 交通
     fields:
       - name: access_from_maihama
         description: 从舞滨/迪士尼度假区出发的到达方式、换乘、车程、车费
@@ -30,7 +30,7 @@ field_groups:
         description: 最晚入场时间与末班交通，服务抵达日/夜景类弹性安排
         detail_level: 简要
 
-  - group: 亮点与体验
+  - category: 亮点与体验
     fields:
       - name: highlights
         description: 核心看点与必体验项目
@@ -42,7 +42,7 @@ field_groups:
         description: 周边推荐美食/餐厅
         detail_level: 简要
 
-  - group: 实用信息
+  - category: 实用信息
     fields:
       - name: ticket_price
         description: 门票/主要体验项目价格
@@ -54,7 +54,7 @@ field_groups:
         description: 中国十一黄金周高峰期间拥挤程度与错峰建议（平日下午、开门即入、避整点场次等）
         detail_level: 详细
 
-  - group: 行程适配
+  - category: 行程适配
     fields:
       - name: best_day_fit
         description: 最适合放在哪一天——抵达日(9/29轻量) / 整天自由日(10/2高强度) / 离开日(10/3半天近羽田)

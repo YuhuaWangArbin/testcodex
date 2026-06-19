@@ -1,0 +1,76 @@
+topic: 2026年9月29日-10月3日东京自由行行程规划
+
+# detail_level 分层：极简 → 简要 → 详细
+field_groups:
+
+  - group: 基本信息
+    fields:
+      - name: name
+        description: 景点/区域名称（中文+日文/英文）
+        detail_level: 极简
+      - name: area
+        description: 所在区域（东京23区内某区 / 近郊某市）
+        detail_level: 极简
+      - name: suggested_duration
+        description: 建议游玩时长（半日/整天/数小时）
+        detail_level: 简要
+      - name: indoor_outdoor
+        description: 室内/室外属性，用于雨天或台风备选判断
+        detail_level: 简要
+
+  - group: 交通
+    fields:
+      - name: access_from_maihama
+        description: 从舞滨/迪士尼度假区出发的到达方式、换乘、车程、车费
+        detail_level: 详细
+      - name: access_from_city
+        description: 从东京市中心（如新宿/东京站）的到达方式与车程
+        detail_level: 简要
+      - name: proximity_to_disney_area
+        description: 与舞滨/迪士尼区域的就近度评级（就近可步行/电车直达 vs 需进城）
+        detail_level: 简要
+      - name: last_train_closing
+        description: 最晚入场时间与末班交通，服务抵达日/夜景类弹性安排
+        detail_level: 简要
+
+  - group: 亮点与体验
+    fields:
+      - name: highlights
+        description: 核心看点与必体验项目
+        detail_level: 详细
+      - name: season_fit_2026_0910
+        description: 2026年9月底-10月初的实际状态（如富士山已闭山、红叶未盛、秋祭/点灯起止日）
+        detail_level: 详细
+      - name: recommended_food
+        description: 周边推荐美食/餐厅
+        detail_level: 简要
+
+  - group: 实用信息
+    fields:
+      - name: ticket_price
+        description: 门票/主要体验项目价格
+        detail_level: 简要
+      - name: reservation_difficulty
+        description: 是否需提前预约、提前多久、放票时间点（如吉卜力每月10日9:00、teamLab/Shibuya Sky需指定场次）
+        detail_level: 详细
+      - name: opening_hours
+        description: 营业/开放时间
+        detail_level: 简要
+      - name: golden_week_crowd_tips
+        description: 中国十一黄金周高峰期间拥挤程度与错峰建议（平日下午、开门即入、避整点场次等）
+        detail_level: 详细
+      - name: tax_payment_tips
+        description: 是否可退税/是否仅收现金；提示10月初仍适用现行店内退税制（新制2026/11/1才生效）
+        detail_level: 简要
+
+  - group: 行程适配
+    fields:
+      - name: best_day_fit
+        description: 最适合放在哪一天——抵达日(9/29轻量) / 整天自由日(10/2高强度) / 离开日(10/3半天近羽田)
+        detail_level: 详细
+
+# 不确定字段（保留，deep阶段联网核实后填充）
+uncertain:
+  - ticket_price          # 2026最新票价以官网为准
+  - opening_hours         # 节假日营业时间可能调整
+  - reservation_difficulty # 放票时间/预约链接需deep阶段核实
